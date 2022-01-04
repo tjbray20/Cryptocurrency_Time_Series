@@ -1,7 +1,7 @@
 ![header](https://i.ibb.co/kHXgpXS/Bitcoin-Banner-1900-x-500.jpg)
 
 # Crypto Project
-Authors: [Aalok Joshi](https://www.linkedin.com/in/aalokjoshi113/), [Paul Lindquist](https://www.linkedin.com/in/paul-lindquist/), [TJ Bray](https://www.linkedin.com/in/thomas-tj-bray-24499354/)
+Authors: [TJ Bray](https://www.linkedin.com/in/thomas-tj-bray-24499354/), [Aalok Joshi](https://www.linkedin.com/in/aalokjoshi113/), [Paul Lindquist](https://www.linkedin.com/in/paul-lindquist/)
 
 ## Overview
 TBD
@@ -24,7 +24,7 @@ TBD
 ## For More Information
 Please review our full analysis in our [Jupyter Notebook](MAIN_Notebook.ipynb) or [presentation deck](Project_Presentation.pdf).
 
-For additional questions, please contact [Aalok](https://www.linkedin.com/in/aalokjoshi113/), [Paul](https://www.linkedin.com/in/paul-lindquist/) or [TJ](https://www.linkedin.com/in/thomas-tj-bray-24499354/).
+For additional questions, please contact [TJ](https://www.linkedin.com/in/thomas-tj-bray-24499354/), [Aalok](https://www.linkedin.com/in/aalokjoshi113/), [Paul](https://www.linkedin.com/in/paul-lindquist/).
 
 ## Respository Structure
 ```
