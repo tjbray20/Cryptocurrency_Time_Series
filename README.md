@@ -28,13 +28,8 @@ For additional questions, please contact [TJ](https://www.linkedin.com/in/thomas
 
 ## Respository Structure
 ```
+├── data                                <- Cleaned, exported .csv files to import in MAIN Notebook
 ├── README.md                           <- The top-level README for reviewers of this project
 ├── MAIN_Notebook.ipynb                 <- Narrative documentation of analysis in Jupyter Notebook
-├── Project_Presentation.pdf            <- PDF version of project presentation
-├── function_notebook_1.py              <- Python script with all functions to be called in MAIN Notebook
-├── Kaggle_Datasets                     <- Raw .csv source files from Kaggle
-├── data                                <- Cleaned, exported .csv files to import in MAIN Notebook
-├── Regular_Season_Notebooks            <- Separate Notebooks showing completed models on regular season data
-├── Postseason_Notebooks                <- Separate Notebooks showing completed models on postseason data
-└── Obselete                            <- Older Notebooks that aren't necessary for final deliverables
+└── Project_Presentation.pdf            <- PDF version of project presentation
 ```
