@@ -1,6 +1,6 @@
 ![header](https://i.ibb.co/kHXgpXS/Bitcoin-Banner-1900-x-500.jpg)
 
-# Crypto Project
+# Cryptocurrency Time Series
 Authors: [TJ Bray](https://www.linkedin.com/in/thomas-tj-bray-24499354/), [Aalok Joshi](https://www.linkedin.com/in/aalokjoshi113/), [Paul Lindquist](https://www.linkedin.com/in/paul-lindquist/)
 
 ## Overview
