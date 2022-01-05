@@ -4,14 +4,18 @@
 Authors: [TJ Bray](https://www.linkedin.com/in/thomas-tj-bray-24499354/), [Aalok Joshi](https://www.linkedin.com/in/aalokjoshi113/), [Paul Lindquist](https://www.linkedin.com/in/paul-lindquist/)
 
 ## Overview
-Time series is, quite simply, a series of data points indexed over time. Time series analysis is used to extract meaningful statistics, patterns, etc. from time series data, while time series forcasting uses a model to predict future values based on previously observed values. We encounter time series in our everyday lives in the form of temperature values over time, home prices over time and stock prices over time.
+Time series is, quite simply, a series of data points indexed over time. Time series analysis is used to extract meaningful statistics, patterns, etc. from time series data, while time series forecasting uses a model to predict future values based on previously observed data. We encounter time series in our everyday lives in the form of outside temperatures, home values and stock prices, all over time.
 
-Stock price forecasting has generally limited success, as factors like purchase volume and current events can cause price fluctuations. Can the same be said of cryptocurrency, namely the heavily traded Bitcoin? In this project, we use traditional time series analysis and forecasting to predict Bitcoin prices. We take a daily predictive approach to forecast if the price will increase, decrease or stay flat and whether to subsequently buy, sell or hold.
+Stock price forecasting has generally limited success, as factors like purchase volume and current events can cause price fluctuations. Can the same be said of cryptocurrency, namely the heavily traded Bitcoin? In this project, we use traditional time series analysis and forecasting to predict Bitcoin prices.
+
+We choose Bitcoin for 2 reasons:
+- Greatest gross price
+- Trading popularity (volume)
 
 ## Business Objective
-This project postulates that we are cryptocurrency traders speaking to our stakeholders, a group of potential investors. We briefly outline our process for selecting the best performing model and quickly jump into the results.
+This project postulates that we are cryptocurrency traders speaking to our stakeholders, a group of potential investors. We briefly outline our process for selecting the best performing model and quickly jump into the results. We pay particular focus to compare predicted vs. actual prices using past data and provide accompanying visualizations. We expect this to both highlight performance and attract investments.
 
-We pay particular focus to compare predicted vs. actual prices using past data and provide accompanying visualizations. We expect this to both highlight performance and attract investments.
+We take a daily, predictive approach to forecast if the Bitcoin price will increase, decrease or stay flat. We then subsequently provide guidance to buy, sell or hold that day.
 
 ## Data
 This project uses [datasets](https://www.kaggle.com/yamqwe/cryptocurrency-extra-data-bitcoin) from Kaggle user [Yam Peleg](https://www.kaggle.com/yamqwe) created for the ***[G-Research Crypto Forecasting](https://www.kaggle.com/c/g-research-crypto-forecasting)*** competition.
@@ -24,6 +28,10 @@ TBD
 
 ## Conclusions
 TBD
+
+For next steps, we would like to explore the following:
+- Time series analysis and forecasting for Ether (the 2nd largest cryptocurrency commonly known as Ethereum)
+- A time-intensive and computationally expensive, iterative, predictive modeling approach to Bitcoin price using sliding 50-day windows
 
 ## For More Information
 Please review our full analysis in our [Jupyter Notebook](MAIN_Notebook.ipynb) or [presentation deck](Project_Presentation.pdf).
