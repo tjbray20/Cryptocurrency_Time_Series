@@ -9,7 +9,7 @@ Time series is, quite simply, a series of data points indexed over time. Time se
 Stock price forecasting has generally limited success, as factors like purchase volume and current events can cause price fluctuations. Can the same be said of cryptocurrency, namely the heavily traded Bitcoin? In this project, we use traditional time series analysis and forecasting to predict Bitcoin prices.
 
 We choose Bitcoin for 2 reasons:
-- Greatest gross price
+- Greatest gross price of all cryptocurrencies
 - Trading popularity (volume)
 
 ## Business Objective
