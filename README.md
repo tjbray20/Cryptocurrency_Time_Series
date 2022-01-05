@@ -13,7 +13,7 @@ TBD
 This project uses [datasets](https://www.kaggle.com/yamqwe/cryptocurrency-extra-data-bitcoin) from Kaggle user [Yam Peleg](https://www.kaggle.com/yamqwe) created for the ***[G-Research Crypto Forecasting](https://www.kaggle.com/c/g-research-crypto-forecasting)*** competition.
 
 ## Methodology
-TBD
+We employ time series analysis, modeling and forecasting.
 
 ## Results
 TBD
