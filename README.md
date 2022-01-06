@@ -13,9 +13,13 @@ We choose Bitcoin for 2 reasons:
 - Trading popularity (volume)
 
 ## Business Objective
-This project postulates that we are cryptocurrency traders speaking to our stakeholders, Future Crypto Investors of America, a group of young, future investors. We briefly outline our process for selecting the best performing model and quickly jump into the results. We give particular focus to comparing predicted vs. actual prices using past data and provide accompanying visualizations. We expect this to both highlight performance and encourage future investment.
+This project postulates that we are cryptocurrency traders speaking to our stakeholders, Future Crypto Investors of America, a group of young, future investors interested in different portfolio options.
 
-We take a daily, predictive approach to forecast if the Bitcoin price will increase, decrease or stay flat. We then subsequently provide guidance to buy, sell or hold that day.
+We briefly outline our process for selecting the best performing model and quickly jump into the results with the following areas of focus:
+- Highlight the model's predicted prices vs. actual prices using past data and provide accompanying visualizations
+- Use a metric (RMSE) that shows margin of error to mitigate risk
+- Take a daily, predictive approach to forecast if the Bitcoin price will increase, decrease or stay flat
+- Subsequently provide guidance to buy, sell or hold on a particular day
 
 ## Data
 This project uses [datasets](https://www.kaggle.com/yamqwe/cryptocurrency-extra-data-bitcoin) from Kaggle user [Yam Peleg](https://www.kaggle.com/yamqwe) created for the ***[G-Research Crypto Forecasting](https://www.kaggle.com/c/g-research-crypto-forecasting)*** competition.
@@ -24,14 +28,16 @@ This project uses [datasets](https://www.kaggle.com/yamqwe/cryptocurrency-extra-
 We employ time series analysis and predictive modeling for forecasting.
 
 ## Results
-We first take a look at the price of Bitcoin over the life of our dataset, January 2017 - December 2021. We notice 
-![predictions](https://i.ibb.co/60g0yqj/Historical-Price-Chart.png)
+We first take a look at the price of Bitcoin over the life of our dataset, January 2017 - December 2021, and can immediately notice its volatility. There's a general positive trend over time that, as we find through time series analysis, we're unable to make completely stationary. As such, we need to select a final model with built-in differencing to account for the lack of stationarity.
+![predictions](./images/HistoricalPriceChart.png)
+
+After running 6 time series models, we select a final ARIMA model with the lowest root mean square error (RMSE) value among all other models. We plot its predicted prices against the actual prices and notice a few things:
+1. The daily predicted price very closely mirrors the closing price from the previous day
+2. The predicted changes in price are fairly conservative in that there aren't egregious high or low swings
+![predictions](./images/PredictionsChart.png)
 
 TBD
-![predictions](https://i.ibb.co/6NQM3Zx/Predictions-Chart.png)
-
-TBD
-![overlap](https://i.ibb.co/zsq9pvz/Overlap-Chart.png)
+![overlap](./images/OverlapChart.png)
 
 ## Conclusions
 TBD
