@@ -21,10 +21,14 @@ We take a daily, predictive approach to forecast if the Bitcoin price will incre
 This project uses [datasets](https://www.kaggle.com/yamqwe/cryptocurrency-extra-data-bitcoin) from Kaggle user [Yam Peleg](https://www.kaggle.com/yamqwe) created for the ***[G-Research Crypto Forecasting](https://www.kaggle.com/c/g-research-crypto-forecasting)*** competition.
 
 ## Methodology
-We employ time series analysis and predictive modeling for the forecasting.
+We employ time series analysis and predictive modeling for forecasting.
 
 ## Results
 TBD
+![predictions](./images/Predictions.png)
+
+TBD
+![overlap](./images/Overlap.png)
 
 ## Conclusions
 TBD
@@ -42,7 +46,8 @@ For additional questions, please contact [TJ](https://www.linkedin.com/in/thomas
 
 ## Respository Structure
 ```
-├── data                                <- Cleaned, exported .csv files to import in MAIN Notebook
+├── data                                <- Source data .csv files
+├── images                              <- Exported Notebook images
 ├── README.md                           <- The top-level README for reviewers of this project
 ├── MAIN_Notebook.ipynb                 <- Narrative documentation of analysis in Jupyter Notebook
 └── Project_Presentation.pdf            <- PDF version of project presentation
