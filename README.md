@@ -24,11 +24,14 @@ This project uses [datasets](https://www.kaggle.com/yamqwe/cryptocurrency-extra-
 We employ time series analysis and predictive modeling for forecasting.
 
 ## Results
-TBD
-![predictions](./images/Predictions.png)
+We first take a look at the price of Bitcoin over the life of our dataset, January 2017 - December 2021. We notice 
+![predictions](https://i.ibb.co/60g0yqj/Historical-Price-Chart.png)
 
 TBD
-![overlap](./images/Overlap.png)
+![predictions](https://i.ibb.co/6NQM3Zx/Predictions-Chart.png)
+
+TBD
+![overlap](https://i.ibb.co/zsq9pvz/Overlap-Chart.png)
 
 ## Conclusions
 TBD
