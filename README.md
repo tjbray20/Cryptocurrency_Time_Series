@@ -21,6 +21,8 @@ We briefly outline our process for selecting the best performing model and quick
 - Take a daily, predictive approach to forecast if the Bitcoin price will increase, decrease or stay flat
 - Subsequently provide guidance to buy, sell or hold on a particular day
 
+In the 5 years of data, the price of Bitcoin increased by 671%. In creating a model that can remove some of the volatility by predicting price movements, we hope to increase the size of the return for our stakeholders while also minimizing risk.
+
 ## Data
 This project uses [datasets](https://www.kaggle.com/yamqwe/cryptocurrency-extra-data-bitcoin) from Kaggle user [Yam Peleg](https://www.kaggle.com/yamqwe) created for the ***[G-Research Crypto Forecasting](https://www.kaggle.com/c/g-research-crypto-forecasting)*** competition.
 
@@ -41,7 +43,7 @@ Here we shift the predicted prices back the number of respective days (one, two,
 ![overlap](./images/OverlapChart.png)
 
 ## Conclusions and Next Steps
-We do not recommend our model for predicting future Bitcoin prices, particularly in a short-term manner like day-trading. The conservative nature of the model causes missed price increases and is late to downturn sell-offs. As such, it would be quite difficult to remain profitable using its forecasts.
+We do not recommend this version of our model for predicting future Bitcoin prices, particularly in a day-trading capacity. The conservative nature of the model causes missed price increases and is late to downturn sell-offs. As such, it would be quite difficult to remain profitable using its forecasts.
 
 To improve the model, we would like to explore the following:
 - A time-intensive and computationally expensive, iterative, predictive modeling approach to Bitcoin price using various sliding windows
