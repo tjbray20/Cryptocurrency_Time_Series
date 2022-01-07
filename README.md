@@ -60,7 +60,7 @@ For additional questions, please contact [TJ](https://www.linkedin.com/in/thomas
 ## Respository Structure
 ```
 ├── data                                <- Source data .csv files
-├── images                              <- Exported Notebook images
+├── images                              <- Exported Notebook visualizations
 ├── README.md                           <- The top-level README for reviewers of this project
 ├── Final_Main_Notebook.ipynb           <- Technical and narrative documentation in Jupyter Notebook
 └── Project_Presentation.pdf            <- PDF version of project presentation
